@@ -4,12 +4,12 @@ import Card from "./Card";
 const AboutWorkshop = () => {
   return (
     <div className="flex items-center justify-center bg-black min-h-screen bg-center bg-cover">
-      <div className="flex flex-col py-14">
+      <div className="flex flex-col px-3">
         <h2 className="text-white text-6xl text-center px-2 py-12">
           What will you learn in the{" "}
           <span className="text-lime-400">workshop?</span>
         </h2>
-        <div className="px-12 flex flex-col items-center md:grid md:grid-cols-2 gap-16">
+        <div className=" flex flex-col items-center md:grid md:grid-cols-2 gap-3">
           <Card
             image="c1.svg"
             title="Conquer the ChatGPT Conversation Arena"

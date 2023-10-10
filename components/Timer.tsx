@@ -26,7 +26,7 @@ const Timer: React.FC = () => {
 
   return (
     <div className="text-center">
-      <div className="text-6xl font-extrabold mt-4">{formatTime(seconds)}</div>
+      <div className="!text-4xl font-extrabold mt-2">{formatTime(seconds)}</div>
     </div>
   );
 };
