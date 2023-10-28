@@ -12,9 +12,9 @@ const Coursestructure = () => {
           <span className="text-button-green">2 hours</span>
         </h2>
       </div>
-      <div className="flex flex-col py-[30px] px-5 justify-center w-full">
-        <div className="flex flex-col text-white shrink bg-back-blue w-full h-100 rounded-lg px-9 pb-9 text-[18px]">
-          <div className="flex align-middle h-min">
+      <div className="flex flex-col mt-5 px-5 justify-center w-full">
+        <div className="flex flex-col text-white shrink bg-back-blue w-full h-100 rounded-lg px-9 py-9 text-[18px]">
+          <div className="flex align-middle h-min mb-3">
             <div className="flex pr-[12px] align-middle">
               <Image
                 src="/ninja_star.svg"

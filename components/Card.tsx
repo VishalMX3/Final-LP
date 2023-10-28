@@ -3,10 +3,8 @@ import React from "react";
 const Card = (props: any) => {
   return (
     <div className="w-full bg-white border h-full p-5 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <div className="items-center self-center flex justify-center">
-        <a href="#">
-          <img className="rounded-t-lg w-32" src={props.image} alt="img" />
-        </a>
+      <div className="items-center self-center flex justify-center h-full max-h-[85px]">
+        <img className="rounded-t-lg h-full" src={props.image} alt="img" />
       </div>
 
       <div className="p-5">
