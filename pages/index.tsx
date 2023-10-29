@@ -3,11 +3,12 @@ import AboutWorkshop from "@/components/AboutWorkshop";
 import Mentor from "@/components/Mentor";
 import Head from "next/head";
 import CoursestructureJ from "@/components/CoursestructureJ";
-import BestTimeToJoinJ from "@/components/BestTimeToJoinJ";
+import PriceDisplaySection from "@/components/PriceDisplaySection";
+import DropDown from "@/components/DropDown";
 
 export default function Home() {
   return (
-    <main className="w-full ">
+    <main className="w-full bg-black flex flex-col items-center">
       <Head>
         <title>Landing Page</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +18,8 @@ export default function Home() {
       <CoursestructureJ />
       <AboutWorkshop />
       <Mentor />
-      <BestTimeToJoinJ />
+      <PriceDisplaySection />
+      <DropDown />
     </main>
   );
 }

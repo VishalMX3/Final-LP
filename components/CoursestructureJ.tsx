@@ -5,10 +5,10 @@ import Timer from "./Timer";
 
 const Coursestructure = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black h-100 bg-fixed bg-center bg-cover lg:pt-10 md:pt-10 sm:pt-10">
+    <div className="flex flex-col items-center justify-center h-100 w-full max-w-3xl lg:pt-10 md:pt-10 sm:pt-10">
       <div className="flex flex-col mx-15 pt-[110px]">
         <h2 className="text-white text-4xl text-center px-2 text-[52px] font-medium">
-          Here's how it works over the{" "}
+          Here's how it works over the<br></br>
           <span className="text-button-green">2 hours</span>
         </h2>
       </div>
